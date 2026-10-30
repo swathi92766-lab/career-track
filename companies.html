@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerTrack - Company Directory</title>
+</head>
+<body>
+
+    <header>
+        <h1>CareerTrack</h1>
+        <p>Job Application Tracker</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Dashboard</a> |
+        <a href="add-application.html">Add Application</a> |
+        <a href="applications.html">My Applications</a> |
+        <a href="interviews.html">Interviews</a> |
+        <a href="companies.html">Companies</a> |
+        <a href="resources.html">Resources</a> |
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+
+        <h2>Company Directory</h2>
+        <p>Explore companies and their career information.</p>
+
+        <section>
+            <h3>Company List</h3>
+
+            <table border="1">
+                <caption>Company Information</caption>
+
+                <thead>
+                    <tr>
+                        <th>Company Name</th>
+                        <th>Industry</th>
+                        <th>Location</th>
+                        <th>Website</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Google</td>
+                        <td>Technology</td>
+                        <td>Bangalore</td>
+                        <td>
+                            <a href="https://www.google.com/about/careers/">
+                                Careers
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Infosys</td>
+                        <td>IT Services</td>
+                        <td>Chennai</td>
+                        <td>
+                            <a href="https://www.infosys.com/careers/">
+                                Careers
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>TCS</td>
+                        <td>IT Services</td>
+                        <td>Mumbai</td>
+                        <td>
+                            <a href="https://www.tcs.com/careers">
+                                Careers
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Amazon</td>
+                        <td>E-commerce</td>
+                        <td>Hyderabad</td>
+                        <td>
+                            <a href="https://www.amazon.jobs/">
+                                Careers
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Add a Company</h3>
+
+            <form action="#" method="get">
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company" required>
+                <br><br>
+
+                <label for="industry">Industry:</label>
+                <input type="text" id="industry" name="industry">
+                <br><br>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location">
+                <br><br>
+
+                <label for="website">Company Website:</label>
+                <input type="url" id="website" name="website">
+                <br><br>
+
+                <button type="submit">Add Company</button>
+                <button type="reset">Clear</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CareerTrack - Created using HTML5</p>
+        <a href="index.html">Back to Dashboard</a>
+    </footer>
+
+</body>
+</html>

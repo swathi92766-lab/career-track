@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerTrack - Interview Tracker</title>
+</head>
+<body>
+
+    <header>
+        <h1>CareerTrack</h1>
+        <p>Job Application Tracker</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Dashboard</a> |
+        <a href="add-application.html">Add Application</a> |
+        <a href="applications.html">My Applications</a> |
+        <a href="interviews.html">Interviews</a> |
+        <a href="companies.html">Companies</a> |
+        <a href="resources.html">Resources</a> |
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+        <h2>Interview Tracker</h2>
+        <p>Manage and track your upcoming interviews.</p>
+
+        <section>
+            <h3>Upcoming Interviews</h3>
+
+            <table border="1">
+                <caption>Interview Schedule</caption>
+
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Job Role</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Interview Round</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Google</td>
+                        <td>Software Intern</td>
+                        <td>2026-11-05</td>
+                        <td>10:00 AM</td>
+                        <td>Technical</td>
+                        <td>Scheduled</td>
+                    </tr>
+
+                    <tr>
+                        <td>Infosys</td>
+                        <td>Python Developer</td>
+                        <td>2026-11-08</td>
+                        <td>02:00 PM</td>
+                        <td>HR</td>
+                        <td>Pending</td>
+                    </tr>
+
+                    <tr>
+                        <td>TCS</td>
+                        <td>Web Developer</td>
+                        <td>2026-11-10</td>
+                        <td>11:30 AM</td>
+                        <td>Technical</td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Interview Preparation Checklist</h3>
+
+            <ul>
+                <li>Research the company.</li>
+                <li>Review technical concepts.</li>
+                <li>Practice common interview questions.</li>
+                <li>Prepare a short self-introduction.</li>
+                <li>Check the interview date and time.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Interview Notes</h3>
+
+            <form action="#" method="get">
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company">
+                <br><br>
+
+                <label for="round">Interview Round:</label>
+                <select id="round" name="round">
+                    <option value="">Select Round</option>
+                    <option value="technical">Technical</option>
+                    <option value="hr">HR</option>
+                    <option value="group-discussion">Group Discussion</option>
+                    <option value="final">Final Round</option>
+                </select>
+                <br><br>
+
+                <label for="notes">Preparation Notes:</label>
+                <br>
+                <textarea id="notes" name="notes"
+                          rows="5" cols="40"></textarea>
+                <br><br>
+
+                <button type="submit">Submit Notes</button>
+                <button type="reset">Clear</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CareerTrack - Created using HTML5</p>
+        <a href="index.html">Back to Dashboard</a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CareerTrack - Add Application</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>CareerTrack</h1>
+
+        <p>Job Application Tracker</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="index.html">Dashboard</a> |
+        <a href="add-application.html">Add Application</a> |
+        <a href="applications.html">My Applications</a> |
+        <a href="interviews.html">Interviews</a> |
+        <a href="companies.html">Companies</a> |
+        <a href="resources.html">Resources</a> |
+        <a href="about.html">About</a>
+
+    </nav>
+
+
+    <main>
+
+        <h2>Add New Job Application</h2>
+
+        <p>Enter your job application details below.</p>
+
+
+        <form action="#" method="get">
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>Company Information</legend>
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company" required>
+
+                <br><br>
+
+                <label for="role">Job Role:</label>
+                <input type="text" id="role" name="role" required>
+
+                <br><br>
+
+                <label for="jobtype">Job Type:</label>
+
+                <select id="jobtype" name="jobtype">
+
+                    <option value="">Select Job Type</option>
+                    <option value="full-time">Full Time</option>
+                    <option value="part-time">Part Time</option>
+                    <option value="internship">Internship</option>
+
+                </select>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>Application Information</legend>
+
+                <label for="applydate">Application Date:</label>
+                <input type="date" id="applydate" name="applydate">
+
+                <br><br>
+
+                <label for="status">Application Status:</label>
+
+                <select id="status" name="status">
+
+                    <option value="">Select Status</option>
+                    <option value="applied">Applied</option>
+                    <option value="assessment">Assessment</option>
+                    <option value="interview">Interview</option>
+                    <option value="selected">Selected</option>
+                    <option value="rejected">Rejected</option>
+
+                </select>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <fieldset>
+
+                <legend>Additional Information</legend>
+
+                <label for="notes">Job Description / Notes:</label>
+
+                <br>
+
+                <textarea id="notes" name="notes" rows="5" cols="40"></textarea>
+
+            </fieldset>
+
+
+            <br>
+
+            <button type="submit">Submit Application</button>
+
+            <button type="reset">Clear Form</button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <p>CareerTrack - Created using HTML5</p>
+
+        <a href="index.html">Back to Dashboard</a>
+
+    </footer>
+
+</body>
+
+</html>
